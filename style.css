@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('Norse-Bold.otf') format('opentype'); 
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+
+}
+
+
+/* odin background */
+.odin{
+    height:auto;
+    width: 40vw;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    text-align: center;
+   
+}
+.odin-logo{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.odin-logo img{
+    width: 5.2vw;
+    opacity: 100%;
+}
+.odin-logo h1{
+    font-family: 'NorseBold', sans-serif; 
+    color: white;
+    font-size: 4rem;
+}
+.odin h5,.odin a{
+    font-size: 0.8rem;
+    color: white;
+    font-weight: lighter;
+}
+.odin h5{
+    margin-top: 60vh;
+}
+
+
+/* form */
+
+.form-layout{
+    padding: 8vh 8vh 8vh 10vh;
+    box-sizing: border-box;
+}
+.heading, form{
+    margin: 10vh auto;
+} 
+
+.input{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.4);
+    
+}
+.left-elements, .right-elements{
+    margin-top: 15px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+label{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgb(95, 92, 92);
+}
+input{
+    height: 5vh;
+    width: 50vh;
+    border: solid 1.25px rgb(206, 204, 204);
+    border-radius: 5px;
+}
+
+  
+#password_alert{
+    color: red;
+}
+
+.submit-btn a{
+    color:#596D48;
+    text-decoration: none;
+}
+button{
+    background-color: #596D48;
+    font-size: 1rem;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: #89ab6e;
+}
+
+
+
